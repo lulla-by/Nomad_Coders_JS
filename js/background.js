@@ -7,4 +7,3 @@ const image = document.createElement("img")
 image.src = `img/${choosenImage}`
 
 document.body.appendChild(image)
-console.log(image)
