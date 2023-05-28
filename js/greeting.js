@@ -4,7 +4,7 @@ const greeting = document.querySelector("#greeting");
 const inner = document.querySelector(".inner-container:first-child");
 const inner2 = document.querySelector(".inner-container:last-child");
 const outer = document.querySelector(".out-container");
-const logoutBtn = document.querySelector(".inner-container button")
+const logoutBtn = document.querySelector(".logoutBtn")
 
 const HIDDEN_CLASSNAME = "hidden"
 const USERNAME = "username"
