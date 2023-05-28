@@ -12,7 +12,7 @@ async function onGeoOk(position) {
   const name = data.name;
   weather.innerText = data.weather[0].main;
   city.innerText = name;
-  console.log(data);
+  // console.log(data);
 }
 function onGeoError() {
   console.log("Can't find you");

@@ -24,6 +24,7 @@ li{
   overflow: hidden;
   text-overflow:ellipsis;
   font-family: 'Black Han Sans', sans-serif;
+  color: black;
 }
 
 li span{
