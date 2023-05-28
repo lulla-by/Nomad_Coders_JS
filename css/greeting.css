@@ -1,0 +1,42 @@
+.greeting{
+  margin-top: 30px;
+  width: 100%;
+  column-rule: black;
+  font-size: 20px;
+}
+.todo-list{
+  padding: 0;
+  margin: auto;
+  margin-top: 20px;
+  list-style: none;
+  width: 400px;
+  text-align: center;
+  min-height: 400px;
+  background-color: white;
+  border-radius: 100px 0 100px 0;
+
+}
+li{
+  margin: 0px 0px 10px 0px;
+  margin:15px 0;
+  text-align: center;
+  width: 400px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+li span{
+  width: 300px;
+}
+li button{
+  width: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+}
+
+.out-container div:first-child{
+color: white;
+}

@@ -1,0 +1,12 @@
+.quote-box{
+  width: 100%;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.quote{
+  margin-top: 10px;
+}
+.author{
+  margin-top: 5px;
+  /* color: rgba(255, 255, 255, 0.842); */
+}

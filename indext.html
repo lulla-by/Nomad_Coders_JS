@@ -1,33 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/style.css" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/background.css" />
+<link rel="stylesheet" href="../css/clock.css" />
+<link rel="stylesheet" href="../css/greeting.css" />
+<link rel="stylesheet" href="../css/quotes.css" />
+<link rel="stylesheet" href="../css/weather.css" />
   <title>Momentum</title>
 </head>
-<body>
-  <h2 id="clock">00:00:00</h2>
-  <form  class="hidden" id="loginForm">
-    <input type="text" placeholder="whit is your name" />
-    <button>Log In</button>
-  </form>
- <h1 id="greeting" class="hidden"></h1>
- <form id="todo-form">
-  <input type="text" placeholder="write a to do and press enter"  required/>
- </form>
- <ul id="todo-list"></ul>
- <div id="quote">
-  <span></span>
-  <span></span>
- </div>
+
+<body id="body">
+<header></header>
+  <div class="out-container">
+    <div>DO NOT ENTER</div>
+    <div>AUTHORIZED PERSONNEL ONLY</div>
+    <div>ENTER YOUR PASSCODE</div>
+    <form class="hidden" id="loginForm">
+      <input type="text" placeholder="Enter your passcode" />
+    </form>
+  </div>
+
+  <div class="wrapper">
+    <div class="inner-container hidden">
+      <h1 id="greeting" class="hidden greeting"></h1>
+
+      <div class="quote-box">
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+      <h2 id="clock" class="clock">00:00:00</h2>
+      <div id="weather" class="weather">
+        <span>loading</span>
+        <span></span>
+      </div>
+      <p class="todo-title">You cat write today's plan.</p>
+      <form id="todo-form">
+        <input type="text" placeholder="write a to do and press enter" maxlength="30" required />
+      </form>
+      <ul id="todo-list" class="todo-list"></ul>
+    </div>
+  </div>
+  <div class="visual">
+  </div>
+  <footer></footer>
   <script src="../js/clock.js"></script>
   <script src="../js/greeting.js"></script>
-  <script src="../js/quotes.js"></script>
+  <!-- <script src="../js/quotes.js"></script> -->
   <script src="../js/background.js"></script>
   <script src="../js/todo.js"></script>
+  <script src="../js/weather.js"></script>
 </body>
+
 </html>
-
-
